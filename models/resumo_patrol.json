@@ -1,0 +1,13 @@
+{
+    "total_registros": 1439,
+    "estados": {
+        "MOVING_FORWARD": 267,
+        "TURNING": 84,
+        "AVOIDING": 359,
+        "DONE": 729
+    },
+    "lados_concluidos": 4,
+    "estado_final": "DONE",
+    "deteccoes_obstaculos": 8,
+    "obstaculos_detectados": 4
+}
