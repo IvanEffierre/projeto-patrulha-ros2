@@ -1,0 +1,21 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+
+# ROS 2
+build/
+install/
+log/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs temporários
+*.log
+
+# Rosbag antigo
+patrol_odom/
+
+# Arquivos temporários
+.DS_Store
