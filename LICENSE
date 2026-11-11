@@ -1,0 +1,321 @@
+# LICENÇA DE USO, DISTRIBUIÇÃO E MODIFICAÇÃO
+
+## PROJETO DE PATRULHAMENTO AUTÔNOMO COM ROS 2
+
+**Copyright © 2026 Valdivan Ramos. Todos os direitos reservados.**
+**Versão da licença: 1.0 — 2026**
+Repositório criado para apresentar os artefatos da atividade 2 da disciplina ESPA04-4 - Tópicos Especiais: Sistemas Robóticos
+(4 Créditos) - parte integrante do Mestrado Prossional em Engenharia de Sistema e Produtos - PPGESP/IFBA.
+---
+
+## 1. IDENTIFICAÇÃO DO SOFTWARE/PROJETO
+
+Esta licença aplica-se ao software denominado **Projeto de Patrulhamento Autônomo com ROS 2**, incluindo,
+conforme disponibilizados pelo autor:
+
+- Código-fonte, Scripts e Módulos Python desenvolvidos por Valdivan Ramos;
+- Nós e pacotes ROS 2;
+- Sistema de controle e máquina de estados do robô;
+- Modelo de inteligência artificial ObstacleNet;
+- Arquivos de treinamento e configuração do modelo;
+- Arquivos de simulação desenvolvidos pelo autor;
+- Notebook Jupyter - compatível também com Google Colab Noteboobks;
+- Arquivos de dados e resultados experimentais;
+- Documentação técnica;
+- Gráficos, imagens e demais materiais produzidos pelo autor.
+
+O termo **"Software"** compreende os elementos acima, individual ou conjuntamente, todos de
+autoria ou titularidade de Valdivan Ramos.
+
+---
+## 2. TITULARIDADE E DIREITOS AUTORAIS
+
+O Software/Projeto é protegido pelas normas aplicáveis de propriedade intelectual e direitos autorais.
+
+Os direitos autorais sobre os componentes originais desenvolvidos no projeto permanecem pertencentes ao seu respectivo titular:
+
+**Valdivan Ramos.**
+
+A disponibilização gratuita de seu código-fonte ou de versões compiladas não constitui transferência de 
+propriedade, cessão de direitos autorais ou renúncia aos direitos do autor.
+
+Componentes de terceiros utilizados no projeto permanecem sujeitos às respectivas licenças e condições de uso.
+
+---
+## 3. CONCESSÃO DE USO
+
+O titular dos direitos autorais concede ao usuário uma autorização gratuita, pessoal, não exclusiva e não transferível 
+para utilizar o Software em atividades pessoais, educacionais, acadêmicas, profissionais, institucionais ou comerciais, 
+desde que respeitadas as restrições desta licença.
+
+O uso desse material em atividades que gerem receita, remuneração, publicidade, patrocínio, monetização ou qualquer 
+outro benefício econômico não constitui, por si só, comercialização do Software.
+
+É permitido, por exemplo, utilizar o conteúdo desse repositório:
+
+1. Em estudos e projetos acadêmicos;
+2. Em pesquisas sobre robótica móvel e automação;
+3. Em atividades profissionais e empresariais;
+4. Em aulas, cursos, treinamentos e apresentações;
+5. Em demonstrações e simulações de robótica;
+6. Como ferramenta auxiliar em projetos;
+7. Em atividades que gerem receita, desde que não envolvam a comercialização não autorizada do próprio Software.
+
+A autorização não concede o direito de vender, licenciar, sublicenciar, alugar ou comercializar o próprio Software 
+ou versões derivadas sem autorização expressa e escrita do titular.
+
+Em outras palavras, **é permitido utilizar o Software em atividades profissionais ou remuneradas; não é permitido 
+comercializar o próprio Software sem autorização.**
+
+---
+## 4. DISTRIBUIÇÃO GRATUITA
+
+É permitida a distribuição gratuita do Software / Projeto / Repositório, original ou modificado, desde que:
+
+a) Esta licença acompanhe o Software;
+
+b) Os avisos de direitos autorais sejam preservados;
+
+c) Os créditos de autoria original sejam mantidos;
+
+d) Não seja cobrado valor pelo próprio Software ou por seu acesso;
+
+e) Modificações realizadas por terceiros sejam identificadas;
+
+f) Versões modificadas não sejam apresentadas como versões oficiais do projeto.
+
+A distribuição deverá respeitar também as licenças dos componentes de terceiros incluídos ou utilizados pelo projeto.
+
+---
+## 5. MODIFICAÇÕES E OBRAS DERIVADAS
+
+O usuário poderá estudar, modificar, adaptar, corrigir ou aprimorar o Software para fins não comerciais.
+
+Toda versão modificada deverá:
+1. Preservar os avisos de copyright existentes;
+2. Preservar a identificação da autoria original;
+3. Indicar de maneira visível as modificações realizadas;
+4. Identificar, quando possível, o responsável pelas modificações;
+5. Não apresentar a versão modificada como sendo a versão oficial do autor original;
+6. Continuar sujeita às restrições de comercialização desta licença, quando incorporar componentes protegidos do Software original.
+
+Exemplo de identificação:
+
+"Baseado no Projeto de Patrulhamento Autônomo com ROS 2, desenvolvido originalmente por Valdivan Ramos. Esta versão 
+contém modificações realizadas por [nome do responsável]."
+
+---
+## 6. PRESERVAÇÃO DOS CRÉDITOS
+
+Os créditos referentes à autoria original não poderão ser removidos, ocultados ou substituídos de maneira que 
+prejudique a identificação do autor original.
+
+Não é permitido:
+- Remover o nome de Valdivan Ramos dos avisos de autoria;
+- Remover os avisos de copyright;
+- Substituir a autoria original pela autoria de terceiros;
+- Apresentar o Software original como sendo de autoria de outra pessoa;
+- Sugerir que o autor original endossa, patrocina ou participa de projetos derivados sem autorização.
+
+Créditos adicionais poderão ser acrescentados para identificar colaboradores e modificações, mas não deverão substituir os créditos originais.
+
+---
+## 7. PROIBIÇÃO DE COMERCIALIZAÇÃO
+
+É expressamente proibido, sem autorização prévia e escrita do titular dos direitos:
+
+1. Vender o Software;
+2. Vender cópias do Software;
+3. Vender versões modificadas que incorporem componentes protegidos do Software original;
+4. Cobrar licença, assinatura, mensalidade ou taxa de acesso pelo Software;
+5. Disponibilizar o Software como produto pago;
+6. Distribuir o Software em lojas ou marketplaces mediante cobrança;
+7. Comercializar o Software como serviço ou componente de produto pago quando sua disponibilização constituir parte relevante da oferta comercial;
+8. Sublicenciar ou relicenciar o Software para fins comerciais;
+9. Utilizar a identidade do projeto para promover produto comercial sem autorização.
+
+A simples utilização do Software em empresas, instituições, atividades profissionais, pesquisas ou serviços remunerados não constitui, 
+por si só, comercialização do Software.
+
+**É permitido ganhar dinheiro utilizando o Software; não é permitido ganhar dinheiro vendendo ou comercializando o próprio Software ou suas 
+versões derivadas sem autorização do titular.**
+
+Esta restrição não altera os direitos concedidos por licenças de componentes de terceiros.
+
+---
+## 8. VENDA DE VERSÕES MODIFICADAS
+
+A criação de uma versão modificada não concede ao responsável pelas alterações o direito de comercializar componentes protegidos do Software original.
+
+Mesmo que terceiros realizem alterações substanciais, as partes originais incorporadas continuarão sujeitas às restrições desta licença.
+
+Nenhuma modificação deverá ser utilizada como mecanismo para contornar as restrições de comercialização aqui estabelecidas.
+
+---
+## 9. REDISTRIBUIÇÃO
+
+A redistribuição gratuita é permitida, desde que sejam fornecidos ao destinatário:
+
+- O Software;
+- O Repositório
+- Esta licença;
+- Os avisos de direitos autorais;
+- Os créditos de autoria original;
+- Informações suficientes para identificar eventuais modificações.
+
+É proibida a redistribuição que remova deliberadamente informações necessárias para identificar a origem dos componentes originais.
+
+---
+## 10. NOME E IDENTIDADE DO PROJETO
+
+Esta licença não concede automaticamente direitos sobre:
+
+- Nome do projeto;
+- Logotipos;
+- Identidade visual;
+- Imagens e materiais gráficos;
+- Marcas e elementos de identificação associados ao projeto.
+
+O usuário poderá identificar uma versão modificada como derivada do projeto original, mas não poderá apresentá-la como versão oficial ou 
+autorizada pelo autor sem autorização expressa.
+
+---
+## 11. VERSÕES MODIFICADAS NÃO OFICIAIS
+
+Somente versões publicadas ou expressamente identificadas pelo titular poderão ser consideradas versões oficiais do projeto.
+
+Versões modificadas por terceiros deverão ser apresentadas como versões modificadas, derivadas ou não oficiais.
+
+O autor original não assume responsabilidade por modificações realizadas por terceiros.
+
+---
+## 12. AUSÊNCIA DE GARANTIA
+
+O Software / Projeto é disponibilizado "NO ESTADO EM QUE SE ENCONTRA", sem garantias expressas ou implícitas, na máxima extensão permitida 
+pela legislação aplicável.
+
+O titular não garante que:
+- O Software funcionará sem erros em quaisquer ambientes ou conjunto de hardware;
+- O Software estará permanentemente disponível;
+- A simulação funcionará em todos os ambientes;
+- O Software será compatível com todas as versões do ROS 2, Gazebo ou Python;
+- Os modelos de inteligência artificial apresentarão resultados específicos;
+- Eventuais falhas serão corrigidas;
+- O Software atenderá a uma finalidade específica do usuário.
+
+O usuário assume a responsabilidade pela avaliação e utilização do Software em seu próprio ambiente.
+
+---
+## 13. LIMITAÇÃO DE RESPONSABILIDADE
+
+Na máxima extensão permitida pela legislação aplicável, o titular dos direitos não será responsável por danos diretos, indiretos, 
+incidentais, especiais ou consequenciais decorrentes do uso, impossibilidade de uso, modificação ou distribuição do Software.
+
+Esta disposição não pretende excluir direitos ou responsabilidades que não possam ser legalmente excluídos ou limitados pela legislação aplicável.
+
+---
+## 14. COMPONENTES DE TERCEIROS
+
+O projeto utiliza tecnologias e ferramentas desenvolvidas por terceiros, incluindo, entre outras:
+
+- ROS 2;
+- Gazebo;
+- Python;
+- PyTorch;
+- NumPy;
+- Pandas;
+- Matplotlib;
+- Jupyter Notebook.
+
+Esses componentes permanecem sujeitos às suas próprias licenças, direitos autorais e condições de utilização.
+
+Em caso de conflito entre esta licença e a licença de um componente de terceiros, deverão ser respeitadas as condições aplicáveis ao componente em questão.
+
+---
+## 15. VIOLAÇÃO DA LICENÇA
+
+O descumprimento das condições desta licença implica a cessação das permissões concedidas ao infrator, na medida permitida pela legislação aplicável.
+
+Em caso de violação, o titular poderá exigir a interrupção da utilização, reprodução ou distribuição não autorizada do Software e adotar as medidas 
+administrativas ou judiciais cabíveis, ainda que a eventual tolerância diante de uma violação específica não constitui renúncia aos direitos do titular.
+
+---
+## 16. AUTORIZAÇÕES ESPECIAIS
+
+O titular poderá conceder autorização específica para determinados usos que não sejam permitidos por esta licença.
+
+Qualquer autorização excepcional deverá ser expressa e documentada pelo titular dos direitos.
+
+Uma autorização concedida para determinada pessoa, organização, finalidade ou período não deverá ser interpretada como autorização geral para terceiros.
+
+---
+## 17. ALTERAÇÕES DESTA LICENÇA
+
+O titular poderá publicar novas versões desta licença para versões futuras do Software.
+
+Cada versão poderá indicar expressamente qual versão da licença lhe é aplicável.
+
+Alterações futuras não deverão ser interpretadas como alteração retroativa das condições sob as quais uma versão anterior tenha sido legitimamente 
+licenciada, salvo quando permitido pela legislação aplicável.
+
+---
+## 18. LEGISLAÇÃO APLICÁVEL
+
+Esta licença deverá ser interpretada de acordo com a legislação aplicável aos direitos autorais, propriedade intelectual e contratos.
+
+Nenhuma disposição pretende afastar direitos ou proteções que sejam irrenunciáveis pela legislação aplicável.
+
+---
+## 19. SEPARABILIDADE
+
+Caso qualquer disposição desta licença seja considerada inválida, ilegal ou inexequível por autoridade competente, as demais disposições permanecerão 
+em vigor na máxima extensão permitida pela legislação aplicável.
+
+A disposição inválida deverá, quando juridicamente possível, ser interpretada ou ajustada de maneira a preservar sua finalidade original.
+
+---
+## 20. ACEITAÇÃO
+
+Ao utilizar, copiar, modificar ou redistribuir os componentes originais desse repositório, o usuário declara ter conhecimento das condições desta 
+licença e concordar em respeitá-las.
+
+Caso não concorde com estas condições, deverá abster-se de utilizar, copiar, modificar ou redistribuir os componentes do Software nas formas aqui autorizadas.
+
+---
+## 21. RESUMO DOS DIREITOS CONCEDIDOS
+
+| Ação                                | Permitido?           |
+|-------------------------------------|----------------------|
+| Uso pessoal                         |                  SIM |
+| Uso educacional e acadêmico         |                  SIM |
+| Estudo do código                    |                  SIM |
+| Uso profissional                    |                  SIM |
+| Uso em atividades remuneradas       |                  SIM |
+| Cópia gratuita                      |                  SIM |
+| Modificação fins não comerciais     |                  SIM |
+| Distribuição gratuita               |                  SIM |
+| Preservação dos créditos originais  |          OBRIGATÓRIO |
+| Identificação das modificações      |          OBRIGATÓRIO |
+| Venda do Software original          |                  NÃO |
+| Venda de versões derivadas          | NÃO, sem autorização |
+| Cobrança de licença pelo Software   |                  NÃO |
+| Remoção dos créditos                |                  NÃO |
+| Apresentar modificação como oficial |                  NÃO |
+| Apresentar modificação extraoficial |                  SIM |
+| Remover Créditos Autoria/Copyright  |                  NÃO |
+
+---
+## 22. COPYRIGHT
+
+**© 2026 Valdivan Ramos. Todos os direitos reservados.**
+
+Projeto de Patrulhamento Autônomo com ROS 2.
+
+Software desenvolvido por **Valdivan Ramos**.
+
+A utilização dos componentes originais deste projeto está condicionada aos termos desta licença, respeitadas as licenças independentes 
+dos componentes de terceiros.
+
+---
+
+**FIM DA LICENÇA**
